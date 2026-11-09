@@ -1,6 +1,6 @@
-# Hayate — LLM で変換する Mac の日本語入力
+# Hayate — LLM で変換する日本語入力
 
-Hayate（ハヤテ）は、Mac 用の日本語入力（IME）です。かな漢字変換の候補は、アプリに同梱した自前の言語モデル（ローカル LLM）が、前の文といま打っている文を読んで選びます。モデルは Mac の中で動くので、変換のために打った文を外へ送りません。
+Hayate（ハヤテ）は、日本語入力（IME）です。かな漢字変換の候補は、アプリに同梱した自前の言語モデル（ローカル LLM）が、前の文といま打っている文を読んで選びます。モデルは Mac の中で動くので、変換のために打った文を外へ送りません。
 
 - サイト: https://hayate.im/
 - 概要: https://hayate.im/about/
@@ -38,4 +38,4 @@ brew install --cask hayate-ime/hayate/hayate
 
 ---
 
-**English:** Hayate is a Japanese input method (IME) for macOS that uses an on-device language model (local LLM) to pick kana–kanji conversion candidates from the surrounding text. Conversion runs entirely on your Mac. Requires macOS 15+ on Apple Silicon. Install with `brew install --cask hayate-ime/hayate/hayate` or from https://hayate.im/.
+**English:** Hayate is a Japanese input method (IME) that uses an on-device language model (local LLM) to pick kana–kanji conversion candidates from the surrounding text. Conversion runs entirely on your Mac. Requires macOS 15+ on Apple Silicon. Install with `brew install --cask hayate-ime/hayate/hayate` or from https://hayate.im/.
